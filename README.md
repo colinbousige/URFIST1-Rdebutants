@@ -1,4 +1,4 @@
-# URFIST Lyon -- Cycle reproductibilité (1): R pour les débutants
+# URFIST Lyon - Cycle reproductibilité (1): R pour les débutants
 
 ## Description
 

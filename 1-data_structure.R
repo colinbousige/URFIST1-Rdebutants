@@ -1,6 +1,6 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-# # #                    Structure of data in R                     # # #
+# #                      Structure of data in R                       # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # Just for Colin, do not run:
@@ -50,6 +50,7 @@ ifelse(what do we need to test?,
        what to do if FALSE?) 
 
 
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # Strings (character) and concatenation (paste0(), paste(), str_c())
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
@@ -76,11 +77,11 @@ str_replace_all(___, ___, ___)
 
 # Using the `str_detect()` function from the `stringr` package, test if the string `x` contains the letter "e":
 
-___
+
 
 # Using the `str_remove_all()` function from the `stringr` package, remove all "e" from the string `x`:
 
-___
+
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
@@ -189,7 +190,7 @@ strsplit("test", "e") |>
 times_sec <- ifelse(test, yes, no)
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-# Let's say we have these population data for these French cities for year 2012:
+# Let's say we have these population data for these cities for year 2012:
 cities <- c("Angers", "Bordeaux", "Brest", "Dijon", "Grenoble", "Le Havre")
 pop <- c(149017, 241287, 139676, 152071, 158346, 173142)
 
@@ -240,7 +241,7 @@ passenger <- c('male','male','female','male','female','female','female','male','
 # Using `as.numeric()`, convert `passenger_fct` to a numerical vector. 
 # What are its values?
 
-# See and understand what the following codes do:
+# See and understand what the following lines do:
 passenger == "male"
 passenger[passenger == "male"]
 females <- which(passenger == "female")
@@ -250,7 +251,7 @@ passenger[females]
 ! "child" %in% passenger
 
 # Dates:
-# See and understand what the following codes do:
+# See and understand what the following lines do:
 Sys.Date()
 start <- Sys.time()
 end <- Sys.time()
@@ -262,8 +263,6 @@ as_hms(difftime(end, start))
 library(lubridate)
 time_length(Sys.Date() - dmy("22-09-1986"), unit="years")
 Sys.Date() + months(1) + years(1)
-
-
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # Table of data: data.frame()
