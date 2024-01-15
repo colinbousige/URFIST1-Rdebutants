@@ -47,7 +47,7 @@ sinc <- function(___){
 }
 
 # Test it:
-x <- seq(-pi,pi,.01)
+x <- seq(-6*pi,6*pi,.01)
 plot(x, sinc(x))
 
 # # # # # # # # # # 

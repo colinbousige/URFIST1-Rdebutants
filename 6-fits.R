@@ -136,4 +136,5 @@ fits
 # Could you have fitted the data with another function? Why?
 
 
+# Plot the results of the two fits on the same graph to compare them.
 

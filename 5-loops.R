@@ -60,7 +60,7 @@ mylist2
 # Name the elements of this list with the file names without the extension.
 # Hint: look at the basename() function
 mylist3 <- lapply(___, ___)
-names(mylist) <- ___
+names(mylist3) <- ___
 mylist3$sample1_800K_20min.csv
 
 # Do the same using Map() and read.csv()

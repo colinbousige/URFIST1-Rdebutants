@@ -325,7 +325,7 @@ df2 <- df |> subset(___, ___)
 plot(___, ___)
 
 
-# Change the column names of `df` to `x`, `sin` and `x_plus_sin`.
+# Change the column names of `df` to `x`, `sin`, `x_plus_sin` and `signy`.
 # Hint: Take a look at the colnames() function
 
 
