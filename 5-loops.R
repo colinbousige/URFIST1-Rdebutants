@@ -67,7 +67,10 @@ mylist3$sample1_800K_20min.csv
 mylist4 <- Map(___, ___)
 mylist4[[1]]
 
-# Using do.call() and rbind(), create a single tidy data.frame containing all the data from the list stacked on top of each other. 
+# Do the same using purrr::map() and read.csv()
+mylist5 <- ___ |> ___
+
+# Using do.call() and rbind(), create a single tidy data.frame containing all the data from mylist4 stacked on top of each other. 
 # Hint: look at the do.call() function
 d <- do.call(___, ___)
 # Add a column with the file name.
@@ -78,6 +81,12 @@ d$file <- sub(".csv.*", "", d$file) # remove file extension and number from the 
 head(d)
 
 
+
+
+# Advanced: using the tidyverse (see URFIST R class #2 in 3 weeks)
+mylist6 <- tibble(flist) |> 
+    mutate(data = map(flist, read.csv)) |> 
+    unnest(data)
 
 
 

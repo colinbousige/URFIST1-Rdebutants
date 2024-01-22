@@ -68,7 +68,8 @@ tolower(name) == "martin"
 x <- "aaaeebbbeebiieelakdceee"
 gsub("e", "A", x)
 
-# Do the same using the `stringr` function `str_replace_all()` (take a look at the [cheatsheet](https://github.com/rstudio/cheatsheets/blob/main/strings.pdf)):
+# Do the same using the `stringr` function `str_replace_all()`
+# Take a look at the cheatsheet here : https://github.com/rstudio/cheatsheets/blob/main/strings.pdf
 
 library(stringr)
 str_replace_all(x, "e", "A")
@@ -326,7 +327,7 @@ df$z <- df$z - min(df$z)
 mean(df$z)
 
 # Add a `signy` column to the table `df` containing "y positive" or "y negative".
-# Hint: Take a look at the ifelse() and sign() functions
+# Hint: Take a look at the ifelse() function
 df$signy <- ifelse(df$y > 0, "y positive", "y negative")
 
 # Create a subset `df2` of `df` that contain all `df` lines where `z` is positive and just the `z` and `x` columns, using 3 different manners.

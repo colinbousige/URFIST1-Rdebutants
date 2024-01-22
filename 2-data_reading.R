@@ -18,7 +18,7 @@
 
 rubis_01   <- ___("Data/rubis_01.txt", ___)
 population <- ___("Data/population.csv")
-FTIR_rocks <- ___("Data/FTIR_rocks.xlsx")
+FTIR_rocks <- ___("Data/FTIR_rocks.xlsx") # look at the `range` and `sheet` arguments
 
 
 # Print their dimensions and column names. 
