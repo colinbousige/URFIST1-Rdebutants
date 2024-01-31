@@ -34,6 +34,18 @@ fit3 <- lm(data = d2, y ~ poly(x, 3))
 summary(fit3)
 lines(d2$x, predict(fit2), lty=2, col='red')
 
+# Or better, create a function that does the fit and the plot for you
+myfit <- function(data=d2, degree=1){
+  fit <- lm(data = data, y ~ poly(x, degree))
+  lines(data$x, predict(fit), lty=2, lwd=2, col=degree)
+  return(fit)
+}
+plot(d2)
+myfit(degree=1)
+myfit(degree=2)
+myfit(degree=3)
+myfit(degree=4)
+
 # # # # # # # # # # # # # # # # # # # 
 # Nonlinear fitting
 # # # # # # # # # # # # # # # # # # # 
@@ -159,8 +171,8 @@ plot(fits$temperature, fits$slope, pch=19, cex=1, col="black")
 # A good starting point for the fit is a=7e6 and Ea=18e3. Check that it's the case.
 # What is the activation energy?
 lines(fits$temperature, 
-          7e6*exp(-18e3/fits$temperature), 
-          col="red", lwd=2)
+      7e6*exp(-18e3/fits$temperature), 
+      col="red", lwd=2)
 fit2 <- nls(data = fits, slope ~ a*exp(-Ea/temperature), 
             start = list(a=7e6, Ea=18e3))
 coef(fit2)['Ea']
