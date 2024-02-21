@@ -1,4 +1,4 @@
-# URFIST Lyon - Reproducibility cycle (1): R for beginners
+# Reproducibility cycle (1): R for beginners
 
 ## Description
 
