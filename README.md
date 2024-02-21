@@ -1,44 +1,44 @@
-# URFIST Lyon - Cycle reproductibilité (1): R pour les débutants
+# URFIST Lyon - Reproducibility cycle (1): R for beginners
 
 ## Description
 
-Cette archive contient les supports de cours pour le 1er cours du cycle de reproductibilité de l'URFIST de Lyon.
+This archive contains the course materials for the 1st course in the reproducibility cycle at URFIST Lyon.
 
-Lien vers le contenu complet du cours : https://colinbousige.github.io/rclass/
+Link to the full course content: https://colinbousige.github.io/rclass/
 
-## Auteur
+## Author
 
 [Colin Bousige](mailto:colin.bousige@cnrs.fr), Laboratoire des Multimatériaux et Interfaces, UMR 5615 CNRS-Université Lyon 1, Villeurbanne, France.
 
-## Durée
+## Duration
 
-2 jours
+2 days
 
-## Objectifs
+## Objectives
 
-- Etre autonome pour travailler avec R sur Rstudio
-- Savoir trouver des informations pour progresser – et les comprendre
-- Apprendre à organiser son travail sous R, à importer des données, et installer des packages.
-- Maîtriser la structure des données sous R : savoir lire, agréger, filtrer et organiser des données avec R
-- Décrire ses données et réaliser ses premières visualisations et modélisations
+- Be able to work independently with R on Rstudio
+- Know how to find and understand information to make progress
+- Learn how to organise your work in R, import data and install packages.
+- Master the structure of data in R: learn how to read, aggregate, filter and organise data with R.
+- Describe your data and create your first visualisations and models.
 
-## Programme
+## Program
 
-- Installer et faire marcher R et Rstudio sur toute plateforme
-- Se familiariser avec l'interface de Rstudio et le travail par projets
-- Installer des packages du CRAN ou d'autres sources (zip, GitHub...), et maintenir son installation à jour
-- Structure des données sous R : définition et utilisation des vecteurs, booléens, data.frames, listes...
-- Lecture et écriture des principaux types de fichiers de données
-- Travailler avec des chaînes de caractères
-- Ecrire et utiliser des fonctions
-- Ecrire une boucle for et méthodes pour éviter ces boucles
-- Introduction à la production de graphiques avec base plot et esquisse
-- Modéliser ses données : fits linéaires avec `lm()`, et non linéaires avec `nls()`
+- Install and run R and Rstudio on any platform
+- Familiarise yourself with the Rstudio interface and working with projects
+- Install packages from CRAN or other sources (zip, GitHub...), and keep your installation up to date
+- Data structure in R: definition and use of vectors, Booleans, data.frames, lists, etc.
+- Reading and writing the main types of data file
+- Working with strings
+- Writing and using functions
+- Writing a for loop and methods for avoiding loops
+- Introduction to producing graphs with plot and sketch bases
+- Modelling your data: linear fits with `lm()`, and non-linear fits with `nls()`.
 
-## Pré-requis
+## Prerequisites
 
-Aucun pré-requis, aucune expérience de code attendue. Venir avec son ordinateur (tout OS) avec les droits administrateurs. Pas de domaine scientifique spécifique attendu : ce qui est vu dans ce cours est adapté à tous les domaines. Les participants sont encouragés à venir avec leurs propres données pour des exercices plus interactifs et adaptés à leurs besoins.
+No pre-requisites, no coding experience expected. Bring your own computer (any OS) with administrator rights. No specific scientific field expected: what is seen in this course is adapted to all fields. Participants are encouraged to bring their own data for more interactive exercises tailored to their needs.
 
-## Type d'intervention
+## Type of intervention
 
-Cours et travaux pratiques. [Le contenu du cours est en ligne](https://colinbousige.github.io/rclass/).
+Lectures and practical work. [The course content is online](https://colinbousige.github.io/rclass/).
